@@ -1,15 +1,30 @@
 import React from 'react'
+import image from '../../src/assets/profile.jpeg'
 
 const Home = () => {
   return (
-    <main className="px-3 mb-30">
-    <h1>Cover your page.</h1>
-    <p className="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
-    <p>lOfficia amet ad anim nulla aliqua dolore deserunt. Consequat dolor occaecat culpa dolore consequat magna mollit. Lorem aliqua est quis aliquip aliqua. Ex labore irure dolor consectetur labore incididunt. Proident aliquip cupidatat occaecat id pariatur adipisicing aliqua minim sint irure. Esse veniam excepteur reprehenderit non sint labore id. In est reprehenderit dolore culpa quis pariatur cillum.</p>
-    <p className="lead">
-      <a href="#" className="btn btn-lg btn-secondary fw-bold border-white bg-white">Learn more</a>
-    </p>
-  </main>
+      <div className="contianer d-flex">
+ <div className="row">
+        <div className="col-xl-4 text-center pb-4">
+          <img
+              className="rounded-circle"
+            width="400"
+            height="400"
+            src={image}
+            alt="Profile of Oliver Drew"
+          />
+        
+        </div>   
+        
+        </div> 
+        <div>
+        <p className="lead">
+        <h1>Zain Ul Abidin</h1>
+            Hi,
+I am a Web developer with front and Back end expereince .I have a strong e-commerce background and i have been working in e-commerce industry for past 10 years working in market reaserch product development search engine optimistation and adverstisment.</p>    
+         </div> 
+
+  </div>
   )
 }
 

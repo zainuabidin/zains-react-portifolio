@@ -8,7 +8,7 @@ const Header = ({currentPage,setCurrentPage}) => {
 
   return (
     <header className="mb-30">
-      <h3 className="float-md-start mb-0">Cover</h3>
+      <h3 className="float-md-start mb-0">Zain's  Portfolio</h3>
       <nav className="nav nav-masthead justify-content-center">
         <a
           className={`nav-link fw-bold py-1 px-0 ${
