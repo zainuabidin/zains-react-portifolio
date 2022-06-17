@@ -1,13 +1,14 @@
 
-
+import React from 'react';
+import MenuBar from './components/MenuBar'
+import ContactForm from './components/Contact'
+import Banner from './components/Banner';
 
 function App() {
   return (
-    <div className="App">
-      <h1>hello
-
-      </h1>
-    </div>
+    <>
+    <Banner/>
+    </>
   );
 }
 
