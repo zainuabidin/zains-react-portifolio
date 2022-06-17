@@ -5,6 +5,7 @@ import Footer from "./components/Footer";
 import Home from "./components/Home";
 import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
+import Cv from "./components/Cv";
 function App() {
   const [currentPage, setCurrentPage] = useState('Home');
 
@@ -15,8 +16,10 @@ function App() {
         <Home />
       ) : currentPage === "Portfolio" ? (
         <Portfolio />
-      ) : currentPage === "Contact" ? (
-        <Contact />
+        ) : currentPage === "Contact" ? (
+          <Contact />
+      ) : currentPage === "Cv" ? (
+        <Cv/>
       ) : (
         <></>
       )}
