@@ -1,22 +1,26 @@
-
-import React from 'react';
-import MenuBar from './components/MenuBar'
-import ContactForm from './components/Contact'
-import Banner from './components/Banner';
-import Footer from './components/footer';
-import Home from './components/Home'
-import Portfolio from './components/portfolio';
-
-
+import React,{useState} from "react";
+import "./components/app.css";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import Home from "./components/Home";
+import Portfolio from "./components/Portfolio";
+import Contact from "./components/Contact";
 function App() {
+  const [currentPage, setCurrentPage] = useState('Home');
+
   return (
     <>
-    <Portfolio/>
-    <Banner/>
-    <Home/>
-    <ContactForm/>
-    <Footer/>
-    
+      <Header setCurrentPage={setCurrentPage} currentPage={currentPage}/>
+      {currentPage === "Home" ? (
+        <Home />
+      ) : currentPage === "Portfolio" ? (
+        <Portfolio />
+      ) : currentPage === "Contact" ? (
+        <Contact />
+      ) : (
+        <></>
+      )}
+      <Footer />
     </>
   );
 }
