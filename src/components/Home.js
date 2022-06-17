@@ -11,7 +11,7 @@ const Home = () => {
             width="400"
             height="400"
             src={image}
-            alt="Profile of Oliver Drew"
+            alt="zain profile picture"
           />
         
         </div>   
