@@ -1,13 +1,14 @@
 {
   "name": "my-app",
   "version": "0.1.0",
-  "homepage": "https://zainuabidin.github.io/zains-react-portifolio/",
+  "homepage": "https://zainuabidin.github.io/zains-react-portifolio",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.2.0",
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.1.3",
+    "gh-pages": "^4.0.0",
     "react": "^18.1.0",
     "react-bootstrap": "^2.4.0",
     "react-dom": "^18.1.0",
@@ -39,8 +40,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "gh-pages": "^4.0.0"
   }
 }
