@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/zains-react-portifolio/static/css/main.073c9b0a.css",
+    "main.js": "/zains-react-portifolio/static/js/main.64206acb.js",
+    "static/media/brain-juice_.png": "/zains-react-portifolio/static/media/brain-juice_.29d5b6aa15f7365969e7.png",
+    "static/media/hotel-pedia.com_.png": "/zains-react-portifolio/static/media/hotel-pedia.com_.0978dd6baf3eb568fe34.png",
+    "static/media/random-password-maker_.png": "/zains-react-portifolio/static/media/random-password-maker_.e7b3930b38652be4d07a.png",
+    "static/media/profile.jpeg": "/zains-react-portifolio/static/media/profile.406f9f2cab1e3df7b50f.jpeg",
+    "static/media/foodPitVersion3_.png": "/zains-react-portifolio/static/media/foodPitVersion3_.b6da32678ea05df23547.png",
+    "static/media/Soccify.png": "/zains-react-portifolio/static/media/Soccify.55c1ed66339d9f93fa45.png",
+    "static/media/text-editor.png": "/zains-react-portifolio/static/media/text-editor.8f44a6dc7aa51873dc00.png",
+    "index.html": "/zains-react-portifolio/index.html",
+    "main.073c9b0a.css.map": "/zains-react-portifolio/static/css/main.073c9b0a.css.map",
+    "main.64206acb.js.map": "/zains-react-portifolio/static/js/main.64206acb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.64206acb.js"
+  ]
+}
